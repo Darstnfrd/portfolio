@@ -1,0 +1,281 @@
+/* Global ---------------------------------------------------------------------------------*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+a, a:focus, a:active, a:hover{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Norican', cursive;
+}
+
+
+h1{
+  font-size: 3.5rem;
+}
+
+h4{
+  font-size: 2rem;
+}
+
+.btn{
+  border-radius: 0.20rem !important;
+  padding: .6rem 1.75rem;
+  background: #007bff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn:hover{
+  color: white;
+}
+
+.btn-lite{
+  background: #1daaff;
+}
+
+.btn-lite:hover{
+  background: #007bff;
+  border:1px solid #007bff;
+}
+
+.btn-white{
+  background: white;
+  color: #0098ce;
+}
+
+.btn-yellow{
+  background: #f4ec5f;
+  color: #333 !important;
+}
+
+.btn-yellow:hover{
+  background: #fcd804;
+  border: 1px solid #fcd804;
+  color: #333;
+}
+
+.card{
+  box-shadow: 1px 1px 75px #eee;
+  border: 1px solid #eef;
+  border-radius: 0;
+}
+
+.card-img-top{
+
+  border-radius: 0;
+}
+
+.card h5{
+  font-weight: 600;
+}
+
+
+/* Header -----------------------------------------------------------------------------*/
+
+.navbar {
+  background-color: white;
+  padding: 20px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar a{
+  color: #222;
+}
+
+.navbar-brand img{
+  width: 250px;
+}
+
+.navbar-nav{
+  /*margin: 0 auto;*/
+}
+
+.nav-item{
+  /*padding: .5rem 1.25rem !important;*/
+  margin: 0 7px;
+}
+
+/* Jumbotron ------------------------------------------------------------------------------*/
+
+.jumbotron{
+  background: #bbb;
+  border-radius: 0;
+  margin: 0 0;
+}
+
+#home-bg{
+  background: url('./home-bg.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  text-align: left;
+  height: 600px;
+}
+
+#sunset-bg{
+  background: url('./sunset.jpg') !important;
+  background-position: center top !important;
+  background-size: cover !important;
+} 
+
+#heartsky-bg{
+  background: url('./heartsky.jpg') !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+#heartsky-bg h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fcd804;
+}
+
+#home-text{
+  margin-top:100px;
+  text-align: center;
+} 
+
+#home-text h1{
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.strip-blue{
+  padding: 60px 150px 80px 150px;
+  background: #0098ce;
+  color: white;
+}
+
+.strip-blue h1{
+  color: white;
+}
+
+.strip-white{
+  padding: 60px 150px 80px 150px;
+  background: #fff;
+}
+
+.strip-white h1{
+  color: #68d0ec;
+}
+
+.icon{
+  height:75px;
+  margin: auto 0;
+}
+
+.signup-icon{
+  height: 100px;
+  margin: auto 0;
+}
+
+.media-body{
+  margin: auto 0;
+  text-align:left;
+}
+
+
+/* Form -------------------------------------------------------------------------------------*/
+
+input, select{
+  border-radius: 0 !important;
+}
+
+#signup{
+  padding: 40px 25px;
+  border: 1px solid #eef;
+  box-shadow: 1px 1px 75px #eee;
+
+}
+
+#signup form{
+  text-align: left;
+}
+
+label{
+  font-weight: 600;
+}
+
+.form-check{
+  text-align: center;
+}
+
+label{
+  font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Footer -----------------------------------------------------------------------------*/
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #777;
+  color: white;
+  padding: 60px 150px 0 150px;
+  text-align: left;
+}
+
+footer a{
+  color: #ddd;
+}
+
+footer a:hover{
+  color: #f4ec5f;
+}
+
+#copyright{
+  border-top:1px solid #aaa;
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  color: #ddd;
+}
+/* Responsive -----------------------------------------------------------------------------*/
